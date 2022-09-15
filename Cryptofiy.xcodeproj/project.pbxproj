@@ -12,6 +12,7 @@
 		D0686B1A28D3A1A300F6BF08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0686B1928D3A1A300F6BF08 /* Preview Assets.xcassets */; };
 		D0686B2128D3A2B200F6BF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0686B2028D3A2B200F6BF08 /* Assets.xcassets */; };
 		D0686B2428D3A34000F6BF08 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B2328D3A34000F6BF08 /* Color.swift */; };
+		D0686B2A28D3A4A600F6BF08 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B2928D3A4A600F6BF08 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D0686B1928D3A1A300F6BF08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0686B2028D3A2B200F6BF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
 		D0686B2328D3A34000F6BF08 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D0686B2928D3A4A600F6BF08 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,8 @@
 		D0686B0628D3A1A200F6BF08 = {
 			isa = PBXGroup;
 			children = (
+				D0686B1228D3A1A200F6BF08 /* CryptofiyApp.swift */,
+				D0686B1428D3A1A200F6BF08 /* ContentView.swift */,
 				D0686B1128D3A1A200F6BF08 /* Cryptofiy */,
 				D0686B1028D3A1A200F6BF08 /* Products */,
 			);
@@ -53,9 +57,8 @@
 		D0686B1128D3A1A200F6BF08 /* Cryptofiy */ = {
 			isa = PBXGroup;
 			children = (
+				D0686B2528D3A41500F6BF08 /* Core */,
 				D0686B2228D3A32E00F6BF08 /* Extensions */,
-				D0686B1228D3A1A200F6BF08 /* CryptofiyApp.swift */,
-				D0686B1428D3A1A200F6BF08 /* ContentView.swift */,
 				D0686B2028D3A2B200F6BF08 /* Assets.xcassets */,
 				D0686B1828D3A1A300F6BF08 /* Preview Content */,
 			);
@@ -76,6 +79,38 @@
 				D0686B2328D3A34000F6BF08 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0686B2528D3A41500F6BF08 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0686B2628D3A47500F6BF08 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D0686B2628D3A47500F6BF08 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0686B2728D3A48000F6BF08 /* Views */,
+				D0686B2828D3A48900F6BF08 /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0686B2728D3A48000F6BF08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0686B2928D3A4A600F6BF08 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0686B2828D3A48900F6BF08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0686B1528D3A1A200F6BF08 /* ContentView.swift in Sources */,
+				D0686B2A28D3A4A600F6BF08 /* HomeView.swift in Sources */,
 				D0686B1328D3A1A200F6BF08 /* CryptofiyApp.swift in Sources */,
 				D0686B2428D3A34000F6BF08 /* Color.swift in Sources */,
 			);
