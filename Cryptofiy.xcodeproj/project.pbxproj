@@ -13,6 +13,7 @@
 		D0686B2128D3A2B200F6BF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0686B2028D3A2B200F6BF08 /* Assets.xcassets */; };
 		D0686B2428D3A34000F6BF08 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B2328D3A34000F6BF08 /* Color.swift */; };
 		D0686B2A28D3A4A600F6BF08 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B2928D3A4A600F6BF08 /* HomeView.swift */; };
+		D0686B2E28D3A7B400F6BF08 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B2D28D3A7B400F6BF08 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D0686B2028D3A2B200F6BF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
 		D0686B2328D3A34000F6BF08 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D0686B2928D3A4A600F6BF08 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0686B2D28D3A7B400F6BF08 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		D0686B2528D3A41500F6BF08 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D0686B2B28D3A61100F6BF08 /* Components */,
 				D0686B2628D3A47500F6BF08 /* Home */,
 			);
 			path = Core;
@@ -111,6 +114,22 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0686B2B28D3A61100F6BF08 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0686B2C28D3A79000F6BF08 /* CircleButtonView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D0686B2C28D3A79000F6BF08 /* CircleButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				D0686B2D28D3A7B400F6BF08 /* CircleButtonView.swift */,
+			);
+			path = CircleButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +205,7 @@
 				D0686B1528D3A1A200F6BF08 /* ContentView.swift in Sources */,
 				D0686B2A28D3A4A600F6BF08 /* HomeView.swift in Sources */,
 				D0686B1328D3A1A200F6BF08 /* CryptofiyApp.swift in Sources */,
+				D0686B2E28D3A7B400F6BF08 /* CircleButtonView.swift in Sources */,
 				D0686B2428D3A34000F6BF08 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
