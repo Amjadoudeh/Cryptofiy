@@ -11,6 +11,7 @@
 		D0686B1528D3A1A200F6BF08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B1428D3A1A200F6BF08 /* ContentView.swift */; };
 		D0686B1A28D3A1A300F6BF08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0686B1928D3A1A300F6BF08 /* Preview Assets.xcassets */; };
 		D0686B2128D3A2B200F6BF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0686B2028D3A2B200F6BF08 /* Assets.xcassets */; };
+		D0686B2428D3A34000F6BF08 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686B2328D3A34000F6BF08 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D0686B1428D3A1A200F6BF08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0686B1928D3A1A300F6BF08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0686B2028D3A2B200F6BF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Preview Content/Assets.xcassets"; sourceTree = "<group>"; };
+		D0686B2328D3A34000F6BF08 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D0686B1128D3A1A200F6BF08 /* Cryptofiy */ = {
 			isa = PBXGroup;
 			children = (
+				D0686B2228D3A32E00F6BF08 /* Extensions */,
 				D0686B1228D3A1A200F6BF08 /* CryptofiyApp.swift */,
 				D0686B1428D3A1A200F6BF08 /* ContentView.swift */,
 				D0686B2028D3A2B200F6BF08 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D0686B1928D3A1A300F6BF08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0686B2228D3A32E00F6BF08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0686B2328D3A34000F6BF08 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D0686B1528D3A1A200F6BF08 /* ContentView.swift in Sources */,
 				D0686B1328D3A1A200F6BF08 /* CryptofiyApp.swift in Sources */,
+				D0686B2428D3A34000F6BF08 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
