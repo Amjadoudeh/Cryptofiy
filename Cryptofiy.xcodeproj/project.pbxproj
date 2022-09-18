@@ -20,6 +20,7 @@
 		D08181F728D6FD9C0035E4A9 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181F628D6FD9C0035E4A9 /* PreviewProvider.swift */; };
 		D08181F928D703BA0035E4A9 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181F828D703BA0035E4A9 /* Double.swift */; };
 		D08181FB28D78C630035E4A9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181FA28D78C630035E4A9 /* HomeViewModel.swift */; };
+		D08181FF28D793EA0035E4A9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181FE28D793EA0035E4A9 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D08181F628D6FD9C0035E4A9 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		D08181F828D703BA0035E4A9 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D08181FA28D78C630035E4A9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D08181FE28D793EA0035E4A9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,10 @@
 		D0686B1128D3A1A200F6BF08 /* Cryptofiy */ = {
 			isa = PBXGroup;
 			children = (
-				D0686B3528D3C16300F6BF08 /* Models */,
+				D08181FC28D793CD0035E4A9 /* Services */,
 				D0686B2528D3A41500F6BF08 /* Core */,
 				D0686B2828D3A48900F6BF08 /* ViewModels */,
+				D0686B3528D3C16300F6BF08 /* Models */,
 				D0686B2228D3A32E00F6BF08 /* Extensions */,
 				D0686B2028D3A2B200F6BF08 /* Assets.xcassets */,
 				D0686B1828D3A1A300F6BF08 /* Preview Content */,
@@ -174,6 +177,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D08181FC28D793CD0035E4A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D08181FE28D793EA0035E4A9 /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,6 +257,7 @@
 			files = (
 				D0686B3028D3BBDE00F6BF08 /* CircleButtonAnitmationView.swift in Sources */,
 				D0686B2A28D3A4A600F6BF08 /* HomeView.swift in Sources */,
+				D08181FF28D793EA0035E4A9 /* Network.swift in Sources */,
 				D0686B1328D3A1A200F6BF08 /* CryptofiyApp.swift in Sources */,
 				D0686B3728D3C17100F6BF08 /* CoinModel.swift in Sources */,
 				D08181F728D6FD9C0035E4A9 /* PreviewProvider.swift in Sources */,
