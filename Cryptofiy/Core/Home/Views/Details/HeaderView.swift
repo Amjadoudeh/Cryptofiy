@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct HeaderView: View {
-    @State private var showProtfolio: Bool = false
+    @Binding var showProtfolio: Bool
     
     var body: some View {
         HStack {
@@ -20,7 +20,7 @@ struct HeaderView: View {
             
             Spacer()
             CircleButtonView(iconName: "chevron.right")
-                .rotationEffect(Angle(degrees: showProtfolio ? 0 : 180))
+                .rotationEffect(Angle(degrees: showProtfolio ? 180 : 0))
                 .onTapGesture {
                     withAnimation {
                         showProtfolio.toggle()
@@ -32,8 +32,8 @@ struct HeaderView: View {
 }
 
 
-struct HeaderView_Previews: PreviewProvider {
-    static var previews: some View {
-        HeaderView()
-    }
-}
+//struct HeaderView_Previews: PreviewProvider {
+//    static var previews: some View {
+//    //    HeaderView(showProtfolio: true)
+//    }
+//}
