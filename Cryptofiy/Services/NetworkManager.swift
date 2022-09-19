@@ -15,4 +15,13 @@ class NetworkingManager {
             .receive(on: DispatchQueue.main)
             .eraseToAnyPublisher()
     }
+    
+    static func handleCompletion(completion: Subscribers.Completion<Error>) {
+        switch completion {
+        case . finished:
+            break
+        case .failure(let error):
+            print(error.localizedDescription)
+        }
+    }
 }
