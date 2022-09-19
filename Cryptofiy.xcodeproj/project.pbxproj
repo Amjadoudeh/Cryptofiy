@@ -21,6 +21,7 @@
 		D08181F928D703BA0035E4A9 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181F828D703BA0035E4A9 /* Double.swift */; };
 		D08181FB28D78C630035E4A9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181FA28D78C630035E4A9 /* HomeViewModel.swift */; };
 		D08181FF28D793EA0035E4A9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08181FE28D793EA0035E4A9 /* Network.swift */; };
+		D081820128D85C2F0035E4A9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081820028D85C2F0035E4A9 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D08181F828D703BA0035E4A9 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		D08181FA28D78C630035E4A9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D08181FE28D793EA0035E4A9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D081820028D85C2F0035E4A9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				D08181FE28D793EA0035E4A9 /* Network.swift */,
+				D081820028D85C2F0035E4A9 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				D0686B3028D3BBDE00F6BF08 /* CircleButtonAnitmationView.swift in Sources */,
 				D0686B2A28D3A4A600F6BF08 /* HomeView.swift in Sources */,
 				D08181FF28D793EA0035E4A9 /* Network.swift in Sources */,
+				D081820128D85C2F0035E4A9 /* NetworkManager.swift in Sources */,
 				D0686B1328D3A1A200F6BF08 /* CryptofiyApp.swift in Sources */,
 				D0686B3728D3C17100F6BF08 /* CoinModel.swift in Sources */,
 				D08181F728D6FD9C0035E4A9 /* PreviewProvider.swift in Sources */,

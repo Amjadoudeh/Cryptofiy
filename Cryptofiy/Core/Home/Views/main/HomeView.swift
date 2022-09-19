@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject private var viewModel: HomeViewModel
     @State var showProtfolio: Bool = false
+    
     var body: some View {
         ZStack {
             //MARK: background layer
